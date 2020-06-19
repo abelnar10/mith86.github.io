@@ -1,0 +1,13 @@
+document.querySelector('.menu-btn').addEventListener('click', () => {
+    console.log('hola'); 
+    document.querySelector('.nav-menu').classList.toggle('show');
+});
+
+ScrollReveal().reveal('.showcase');
+
+
+ScrollReveal().reveal('.card',{ delay: 100});
+
+ScrollReveal().reveal('.news-cards', { delay: 500 });
+ScrollReveal().reveal('.cards-banner-one', { delay: 500 });
+ScrollReveal().reveal('.cards-banner-two', { delay: 500 });
